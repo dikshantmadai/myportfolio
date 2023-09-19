@@ -125,19 +125,19 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section_title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section_subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section_title,
-.section_subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
@@ -187,17 +187,36 @@ img {
     margin-left: var(--mb-1-5);
     margin-right:var(--mb-1-5);
   }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+
 }
 @media screen and (max-width: 576px) {
 }
 /* For small devices */
 @media screen and (max-width: 350px) {
+  :root{
+    --big-font-size: 2.25rem;
+  }
   .container{
     margin-left: var(--mb-1);
     margin-right:var(--mb-1);
   }
+
+
   
  }
