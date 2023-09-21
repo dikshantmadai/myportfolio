@@ -75,11 +75,11 @@ const Services = () => {
                         <h3 className="services__title">Frontend <br /> Developer</h3>
                     </div>
 
-                    <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <span onClick ={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-                    <div className="services__modal">
+                    <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Frontend Developer</h3>
 
@@ -129,11 +129,11 @@ const Services = () => {
                         <h3 className="services__title">Ui/Ux <br /> Designer</h3>
                     </div>
 
-                    <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
 
-                    <div className="services__modal">
+                    <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i onClick={()=> toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Ui/Ux Designer</h3>
 
