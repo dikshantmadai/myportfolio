@@ -35,7 +35,7 @@ const Contact = () => {
                     <h3 className="contact__title">Talk to me</h3>
                     <div className="contact__info">
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact-card-icon"></i>
+                            <i className="bx bxl-gmail contact-card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">madaigd01@gmail.com</span>
                             <a
