@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./qualification.css";
 
+
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1);
 
@@ -117,7 +118,7 @@ const Qualification = () => {
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                    <div className="qualification__data">
+                        <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">SSRC</h3>
                                 <span
@@ -157,7 +158,7 @@ const Qualification = () => {
 
                         </div>
 
-                        
+
 
                         <div className="qualification__data">
                             <div>
@@ -198,7 +199,7 @@ const Qualification = () => {
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
