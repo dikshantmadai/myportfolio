@@ -1,0 +1,26 @@
+main {
+    place-items: center;
+}
+
+
+.container1 {
+    border:1px solid black;
+    height:480px;
+    width: 480px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    /* background-image: url(/src/assets/chogift.png); */
+    
+}
